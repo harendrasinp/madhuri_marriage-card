@@ -182,12 +182,12 @@ const Maincard = () => {
       {/* ------------------------------------Latter animation----------------------------------- */}
       <motion.div
         initial={{ height: 45 }}
-        animate={{ height: 320 }}
+        animate={{ height: 335 }}
         transition={{ delay: 0.8, duration: 3 }}
         className="relative flex justify-center overflow-hidden"
       >
         {/* Image Wrapper */}
-        <div className="relative w-[350px] h-[315px]">
+        <div className="relative w-[365px] h-[315px]">
           <Image
             src="/images/latter1.png"
             alt="letter"
@@ -197,26 +197,29 @@ const Maincard = () => {
 
           {/* Text Overlay */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 z-10 text-amber-100">
-            <p className="tangerine text-[20px]">Namashkar</p>
-
+            <p className="tangerine text-[20px]">नमस्कार</p>
             <p className="tangerine text-[25px]">
               {checkGen()}. {name}
             </p>
+            <p className="text-[0.8rem] w-40 tangerine">
+              आमच्या आयुष्यातील अत्यंत आनंदाचा क्षण साजरा करण्यासाठी
+              आपणांस सस्नेह आमंत्रित करत आहोत।
 
-            <p className="text-[1.3rem] mt-2 w-40 tangerine">
-              You are warmly invited to our wedding celebration 💍
-              Please join us and bless the couple on their special day.
+              आमचे लाडके
+              कुलदीप 💍 माधुरी
+              यांच्या शुभविवाह सोहळ्यास आपण उपस्थित राहून
+              वधू-वरांना आशीर्वाद द्यावा ही नम्र विनंती।
             </p>
-
-            <p className="tangerine">Thank you</p>
-
-            <p className="tangerine text-[1rem]">
-              Madhuri Premsinh pawar
+            <p className="tangerine text-[0.8rem]">
+              श्री.प्रेमसिंह राजपूत
+            </p>
+            <p className="tangerine text-[0.8rem]">
+              सौ.नंदाबाई राजपूत
             </p>
           </div>
         </div>
       </motion.div>
- 
+
       <div className="w-full flex flex-col items-center">
         <div className="relative w-[205px] h-[250px] overflow-hidden shadow-lg border-[0.5rem] border-b-gray-700">
           <Image
